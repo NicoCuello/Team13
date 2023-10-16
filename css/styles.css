@@ -124,9 +124,15 @@ aside {
     padding: 2%;
     
 }
-
+/* Estilos para iconos */
 .icon {
     width: 20px;
+    
+}
+
+.icon2 {
+    width: 50px;
+    margin-left: auto;
 }
 /* Estilos para formulario de contacto */
 #contact-form {
@@ -167,6 +173,31 @@ aside {
 
     /* Otros estilos responsivos aquí */
 }
-  
-  
-  
+ 
+/* Estilos para pagina de servicios */
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+
+.service {
+    flex: 0 0 calc(33.33% - 20px);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.service h2 {
+    font-size: 24px;
+}
+
+.service p {
+    font-size: 16px;
+}
