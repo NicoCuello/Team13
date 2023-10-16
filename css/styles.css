@@ -202,23 +202,20 @@ aside {
     font-size: 16px;
 }
 /* Estilos para pagina de autos */
-.listaAutos {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+
+.autoCarrusel {
+    width: 150px;
+    height: 120px;
+    transition: 0.3s;
 }
 
-.auto {
-    margin-bottom: 30px;
+.autoCarrusel:hover {
+    border: 2px solid #000; /* Agrega un borde de 2px de ancho y color negro al hacer hover */
+    margin: 3px;
+    width: 390px;
+    height: 312px;
 }
-
-.carousel {
-    display: flex;
-    overflow: hidden;
+.autoCarrusel {
+    border-radius: 10%;
+    cursor: pointer;
 }
-
-.carousel img {
-    width: 100%;
-    transition: transform 0.5s ease-in-out;
-}
-
