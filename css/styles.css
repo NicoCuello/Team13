@@ -176,14 +176,23 @@ aside {
 
 /* Estilos para la página responsiva */
 @media screen and (max-width: 768px) {
-    /* Estilos para dispositivos móviles */
-    .car {
-        padding: 5px;
+    body {
+        background-color: burlywood;
     }
-
-    /* Otros estilos responsivos aquí */
+    .pie {
+        background-color: rgb(216, 133, 25);
+    }
 }
  
+@media screen and (max-width: 468px) {
+    body {
+        background-color: rgb(110, 116, 190);
+    }
+    .pie {
+        background-color: rgb(33, 85, 228);
+    }
+}
+
 /* Estilos para pagina de servicios */
 .container {
     display: flex;
