@@ -212,6 +212,13 @@ aside {
     font-size: 16px;
 }
 
+/* Estilos para el campo de entrada de monto */
+.monto-input {
+    width: 40%; /* Ajusta el ancho del campo de entrada al 80% */
+    padding: 10px;
+    text-align: center; /* Centra el texto en el campo de entrada */
+}
+
 /* Estilos para pagina de autos */
 .autoCarrusel {
     width: 150px;

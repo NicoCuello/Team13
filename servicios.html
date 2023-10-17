@@ -6,6 +6,7 @@
     <title>Automotores Codocar - Servicios</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/app.js"></script>
+    <script src="js/calculadoraPrestamo.js"></script>
     <link rel="icon" href="img/coche.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,7 +43,20 @@
         <div class="service">
             <h2>Financiación</h2>
             <p>¿Desea adquirir el automóvil de sus sueños pero necesita ayuda con la financiación? Nuestro equipo de financiamiento está listo para ayudarlo a encontrar las mejores opciones de préstamos y arrendamientos que se adapten a su situación financiera. Nos aseguramos de que la compra de su automóvil sea accesible y sin complicaciones, permitiéndole disfrutar de su nuevo vehículo de inmediato.</p>
-            <img src="img/financiacion.jpg" alt="">
+            <img id="mostrarCalculadora" src="img/financiacion.jpg" alt="Mostrar Calculadora">
+            <!-- Contenedor de la calculadora -->
+            <div id="calculadoraContainer">
+              <label for="montoInput">Consulte su préstamo:</label>
+              <p></p>
+              <input type="number" id="montoInput" min="0" max="10000000" placeholder="Ingrese el monto en pesos" class="monto-input">
+              <p></p>
+              <button id="calcularBtn">Calcular</button>
+              <p>Tasa de interés: 5%</p>
+              <p>Interés a pagar: <span id="interesMostrado">$0.00</span></p>
+              <p>Total a pagar: <span id="totalMostrado">$0.00</span></p>
+            </div>
+        
+
         </div>
         <div class="service">
             <h2>Garantía Mecánica</h2>
