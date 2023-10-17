@@ -61,7 +61,6 @@ nav ul li a:hover {
 }
 
 /* Estilos para autos destacados */
-  
 .car { 
     flex-grow: 1; 
     justify-content: center;
@@ -201,8 +200,8 @@ aside {
 .service p {
     font-size: 16px;
 }
-/* Estilos para pagina de autos */
 
+/* Estilos para pagina de autos */
 .autoCarrusel {
     width: 150px;
     height: 120px;
@@ -221,48 +220,38 @@ aside {
     
 }
 
-.listaAutos {
-    display: flex;
-    flex-direction: column;
-        
+.principalAutos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    justify-content: center; /* Centra las columnas horizontalmente */
+    align-content: center; /* Centra las columnas verticalmente */
+    padding: 20px;
   }
   
-  .auto {
-    width: 80%; /* Ocupa todo el ancho de la columna de autos */
-    height: 80%; /* Ocupa todo el alto del aside */
-    border: 10px solid #ccc;
-    padding: 10px;
-    background-color: #bec8e2;
-    
-    
-  }
-  
-  .auto h3 {
-    margin: 0;
-    display: flex;
-    align-content: center;
-    justify-items: center;
-  }
-  
-  .auto h4 {
-    margin-top: 5px;
-    color: #0e0b0b;
-  }
-  
-  .auto p {
-    margin-top: 10px;
-  }
-  
-  .autoCarrusel {
-    width: 30%;
-    height: 30%;
-    margin: 5px;
+  .carList {
+    display: grid;
+    grid-gap: 20px;
+    width: 100%;
   }
   
   .nuestrosVehiculos {
-    width: 100%;
-    float: right;
-    margin-top: 20px; /* Agregamos un margen superior para separar de los autos */
-    display: flex;
-    
+    grid-column: 1; /* Alinea el contenedor a la columna 1 */
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    grid-gap: 20px;
   }
+  
+  .listaAutos {
+    display: flex;
+    justify-content: center; /* Centra las columnas horizontalmente */
+    align-items: center; /* Centra las columnas verticalmente */
+    width: 100%;
+  }
+.auto {
+    background-color: #f0efe6;
+    text-align: center;
+    width: 100%;
+}  
