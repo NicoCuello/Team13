@@ -218,4 +218,51 @@ aside {
 .autoCarrusel {
     border-radius: 10%;
     cursor: pointer;
+    
 }
+
+.listaAutos {
+    display: flex;
+    flex-direction: column;
+        
+  }
+  
+  .auto {
+    width: 80%; /* Ocupa todo el ancho de la columna de autos */
+    height: 80%; /* Ocupa todo el alto del aside */
+    border: 10px solid #ccc;
+    padding: 10px;
+    background-color: #bec8e2;
+    
+    
+  }
+  
+  .auto h3 {
+    margin: 0;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+  }
+  
+  .auto h4 {
+    margin-top: 5px;
+    color: #0e0b0b;
+  }
+  
+  .auto p {
+    margin-top: 10px;
+  }
+  
+  .autoCarrusel {
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+  }
+  
+  .nuestrosVehiculos {
+    width: 100%;
+    float: right;
+    margin-top: 20px; /* Agregamos un margen superior para separar de los autos */
+    display: flex;
+    
+  }
