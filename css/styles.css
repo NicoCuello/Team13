@@ -26,6 +26,11 @@ h1 {
     font-weight: bold;
 }
 
+.navIndex {
+
+    height: 30px;
+}
+
 nav ul {
     list-style: none;
     padding: 10px;
@@ -74,7 +79,7 @@ nav ul li a:hover {
        
     }
 .car img {
-    width: 50%;
+    width: 55%;
 }
 
 .main {
@@ -92,7 +97,9 @@ nav ul li a:hover {
     text-align: center;
     width: 50%;
     background-color: rgb(235, 238, 243);
-    margin: 0 auto; /* Centra horizontalmente la tabla en el contenedor madre */
+    margin: auto ; /* Centra horizontalmente la tabla en el contenedor madre */
+    margin-top: 20px;
+    
 }
 
 td {
@@ -177,24 +184,6 @@ aside {
     cursor: pointer;
 }
 
-/* Estilos para la página responsiva */
-@media screen and (max-width: 768px) {
-    body {
-        background-color: burlywood;
-    }
-    .pie {
-        background-color: rgb(216, 133, 25);
-    }
-}
- 
-@media screen and (max-width: 468px) {
-    body {
-        background-color: rgb(110, 116, 190);
-    }
-    .pie {
-        background-color: rgb(33, 85, 228);
-    }
-}
 
 /* Estilos para pagina de servicios */
 .container {
@@ -226,7 +215,7 @@ aside {
 
 /* Estilos para el campo de entrada de monto */
 .monto-input {
-    width: 45%; /* Ajusta el ancho del campo de entrada al 50% */
+    width: 50%; /* Ajusta el ancho del campo de entrada al 80% */
     padding: 10px;
     text-align: center; /* Centra el texto en el campo de entrada */
 }
@@ -285,3 +274,22 @@ aside {
     text-align: center;
     width: 100%;
 }  
+
+/* Estilos para la página responsiva */
+@media screen and (max-width: 768px) {
+    body {
+        background-color: burlywood;
+    }
+    .pie {
+        background-color: rgb(216, 133, 25);
+    }
+}
+ 
+@media screen and (max-width: 468px) {
+    body {
+        background-color: rgb(110, 116, 190);
+    }
+    .pie {
+        background-color: rgb(33, 85, 228);
+    }
+}
