@@ -55,9 +55,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    font-size: 40px; /* Tamaño de fuente más grande cuando se pasa el mouse */
-    transition: 0.5s;
+    font-size: 20px; /* Tamaño de fuente más grande cuando se pasa el mouse */
+    transition: 0.3s;
     color: #070707;
+    text-decoration: none;
 }
 
 /* Estilos para autos destacados */
@@ -89,7 +90,7 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 60%;
+    width: 50%;
     background-color: rgb(235, 238, 243);
     margin: 0 auto; /* Centra horizontalmente la tabla en el contenedor madre */
 }
@@ -103,6 +104,7 @@ td {
     border: 1px solid #ddd; /* Agrega un borde para separar los elementos */
     padding: 10px;
     margin: 10px;
+    
 }
 
 .pie {
@@ -224,7 +226,7 @@ aside {
 
 /* Estilos para el campo de entrada de monto */
 .monto-input {
-    width: 40%; /* Ajusta el ancho del campo de entrada al 80% */
+    width: 45%; /* Ajusta el ancho del campo de entrada al 50% */
     padding: 10px;
     text-align: center; /* Centra el texto en el campo de entrada */
 }
