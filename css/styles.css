@@ -126,23 +126,24 @@ aside {
 /* Estilos para iconos */
 .icon {
     width: 20px;
-    
+    cursor: pointer;
 }
 
 .icon2 {
     width: 50px;
     margin-left: auto;
+    
 }
 
 .icon3 {
     width: 20px;
-    margin-left: auto;
+    margin-left: 5px;
     cursor: pointer;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 .icon3:hover {
-    transform: scale(2.2);
+    transform: scale(1.5);
   }
 /* Estilos para formulario de contacto */
 #contact-form {
@@ -232,7 +233,7 @@ aside {
 .autoCarrusel {
     width: 150px;
     height: 120px;
-    transition: 1.5s;
+    transition: 1s;
 }
 
 .autoCarrusel:hover {
